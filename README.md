@@ -1,8 +1,14 @@
-```shell
-#如果是使用vmware，可直接在这里下载配置好的操作系统，有Ubuntu,Centos,Fedora,SuSE等
-#http://www.vmware.com/appliances/directory/cat/508
-#我下载的是这个：http://www.vmware.com/appliances/directory/1259373
-#下面开始安装
+###Ubuntu 11.10的快速搭建Ruby/Rails环境指南
+参考了以下两个链接，非常感谢Hisea和Saberma
+http://saberma.me/linux/2011/02/24/my-ubuntu.html
+http://hisea.me/p/rails31-ubuntu-passenger-nginx-quick-deploy
+
+如果是使用vmware，可直接在这里下载配置好的操作系统，有Ubuntu,Centos,Fedora,SuSE等
+http://www.vmware.com/appliances/directory/cat/508
+我下载的是这个：http://www.vmware.com/appliances/directory/1259373
+
+##下面是安装过程
+```bash
 #备份源
 sudo mv /etc/apt/sources.list /etc/apt/sources.list.back
 #换源，我感觉163的源快又稳定
